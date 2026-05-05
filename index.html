@@ -12,15 +12,15 @@
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
-    --primary:       #2F6F57;
-    --primary-deep:  #245746;
-    --primary-glow:  #4C8F74;
-    --bg:            #1A4A38;
-    --bg-mid:        #285E48;
-    --off-white:     #EEF6F2;
-    --cream:         #D8EDE4;
-    --parchment:     #A9D3BE;
-    --baby-blue:     #B8D8C8;
+    --primary:       #A4C639;
+    --primary-deep:  #7FA52B;
+    --primary-glow:  #C8E86A;
+    --bg:            #506A18;
+    --bg-mid:        #668422;
+    --off-white:     #F4FAE8;
+    --cream:         #E4F2C0;
+    --parchment:     #C8E070;
+    --baby-blue:     #D4E890;
     --font-display:  'Cormorant Garamond', Georgia, serif;
     --font-body:     'Jost', sans-serif;
     --ease-out:      cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -53,9 +53,9 @@
     inset: 0;
     z-index: 0;
     background:
-      radial-gradient(ellipse 80% 60% at 60% 20%, rgba(180, 230, 205, 0.30) 0%, transparent 60%),
-      radial-gradient(ellipse 50% 40% at 10% 80%, rgba(30, 80, 60, 0.38) 0%, transparent 55%),
-      linear-gradient(175deg, #0E3224 0%, #1A4A38 35%, #285E48 65%, #0E3224 100%);
+      radial-gradient(ellipse 80% 60% at 60% 20%, rgba(210, 240, 140, 0.30) 0%, transparent 60%),
+      radial-gradient(ellipse 50% 40% at 10% 80%, rgba(70, 100, 14, 0.38) 0%, transparent 55%),
+      linear-gradient(175deg, #354510 0%, #506A18 35%, #668422 65%, #354510 100%);
   }
 
   .hero-bg-img {
@@ -104,7 +104,7 @@
   .header-line {
     width: 48px;
     height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(169, 211, 190, 0.3));
+    background: linear-gradient(90deg, transparent, rgba(200, 224, 112, 0.3));
   }
 
   /* HERO — OTIMIZADO */
@@ -136,7 +136,7 @@
     font-size: 18.5px;
     font-weight: 400;
     line-height: 1.6;
-    color: rgba(238, 246, 242, 0.92);
+    color: rgba(244, 250, 232, 0.92);
     max-width: 300px;
     letter-spacing: 0.02em;
   }
@@ -158,7 +158,7 @@
   .divider-line {
     flex: 1;
     height: 1px;
-    background: linear-gradient(90deg, rgba(47, 111, 87, 0.6), rgba(14, 50, 36, 0.2));
+    background: linear-gradient(90deg, rgba(164, 198, 57, 0.6), rgba(53, 69, 16, 0.2));
     position: relative;
     overflow: hidden;
   }
@@ -182,9 +182,9 @@
     height: 100%;
     background: linear-gradient(90deg,
       transparent 0%,
-      rgba(76, 143, 116, 0.55) 45%,
-      rgba(140, 196, 172, 0.75) 50%,
-      rgba(76, 143, 116, 0.55) 55%,
+      rgba(200, 232, 106, 0.55) 45%,
+      rgba(225, 245, 160, 0.75) 50%,
+      rgba(200, 232, 106, 0.55) 55%,
       transparent 100%);
     animation: shine-to-right 5s ease-in-out infinite;
   }
@@ -199,9 +199,9 @@
     height: 100%;
     background: linear-gradient(90deg,
       transparent 0%,
-      rgba(76, 143, 116, 0.55) 45%,
-      rgba(140, 196, 172, 0.75) 50%,
-      rgba(76, 143, 116, 0.55) 55%,
+      rgba(200, 232, 106, 0.55) 45%,
+      rgba(225, 245, 160, 0.75) 50%,
+      rgba(200, 232, 106, 0.55) 55%,
       transparent 100%);
     animation: shine-to-left 5s ease-in-out infinite;
   }
@@ -241,8 +241,8 @@
     align-items: center;
     gap: 16px;
     padding: 0 20px 0 0;
-    background: linear-gradient(180deg, #4C8F74 0%, #2F6F57 52%, #245746 100%);
-    border: 1px solid #A9D3BE;
+    background: linear-gradient(180deg, #C8E86A 0%, #A4C639 52%, #7FA52B 100%);
+    border: 1px solid #DDF5A3;
     border-radius: 4px;
     cursor: pointer;
     overflow: hidden;
@@ -251,8 +251,8 @@
     transition: transform 80ms var(--ease-out), box-shadow 120ms var(--ease-out);
     -webkit-tap-highlight-color: transparent;
     box-shadow:
-      0 2px 18px rgba(47, 111, 87, 0.42),
-      inset 0 1px 0 rgba(200, 235, 218, 0.18);
+      0 2px 18px rgba(164, 198, 57, 0.42),
+      inset 0 1px 0 rgba(235, 252, 190, 0.20);
   }
 
   .pro-btn::before {
@@ -260,8 +260,8 @@
     position: absolute;
     inset: 0;
     background: linear-gradient(180deg,
-      rgba(225, 248, 238, 0.22) 0%,
-      rgba(205, 235, 220, 0.08) 38%,
+      rgba(242, 255, 210, 0.22) 0%,
+      rgba(228, 252, 180, 0.08) 38%,
       transparent 68%);
     opacity: 0.75;
     transition: opacity 380ms var(--ease-out);
@@ -278,9 +278,9 @@
     background: linear-gradient(
       102deg,
       transparent 0%,
-      rgba(225, 248, 238, 0.10) 30%,
-      rgba(235, 252, 244, 0.24) 50%,
-      rgba(225, 248, 238, 0.10) 70%,
+      rgba(242, 255, 210, 0.10) 30%,
+      rgba(248, 255, 225, 0.24) 50%,
+      rgba(242, 255, 210, 0.10) 70%,
       transparent 100%
     );
     transform: skewX(-10deg);
@@ -292,13 +292,13 @@
 
   .pro-btn:hover::before  { opacity: 1; }
   .pro-btn:hover::after   { opacity: 1; animation-duration: 4.5s; }
-  .pro-btn:hover          { border-color: rgba(190, 230, 210, 0.85); }
+  .pro-btn:hover          { border-color: rgba(235, 252, 175, 0.90); }
 
   .pro-btn:active {
     transform: scale(0.976);
     box-shadow:
-      0 1px 8px rgba(14, 50, 36, 0.24),
-      inset 0 2px 6px rgba(10, 38, 28, 0.15);
+      0 1px 8px rgba(53, 69, 16, 0.26),
+      inset 0 2px 6px rgba(40, 55, 10, 0.16);
   }
   .pro-btn:active::before { opacity: 0.45; }
   .pro-btn:active::after  { opacity: 0.18; animation-play-state: paused; }
@@ -307,23 +307,23 @@
     position: absolute;
     inset: -2px;
     border-radius: 6px;
-    border: 1.5px solid rgba(140, 196, 172, 0.0);
-    box-shadow: 0 0 0 0 rgba(47, 111, 87, 0);
+    border: 1.5px solid rgba(200, 232, 106, 0.0);
+    box-shadow: 0 0 0 0 rgba(164, 198, 57, 0);
     transition: border-color 350ms var(--ease-out), box-shadow 350ms var(--ease-out);
     pointer-events: none;
   }
 
   .pro-btn:hover .glow-ring {
-    border-color: rgba(140, 196, 172, 0.38);
-    box-shadow: 0 0 18px rgba(47, 111, 87, 0.26);
+    border-color: rgba(200, 232, 106, 0.38);
+    box-shadow: 0 0 18px rgba(164, 198, 57, 0.28);
   }
 
   .pro-avatar-placeholder {
     width: 52px;
     height: 52px;
     border-radius: 50%;
-    background: linear-gradient(135deg, rgba(169, 211, 190, 0.18), rgba(36, 87, 70, 0.30));
-    border: 1.5px solid rgba(190, 228, 210, 0.32);
+    background: linear-gradient(135deg, rgba(210, 240, 130, 0.18), rgba(127, 165, 43, 0.30));
+    border: 1.5px solid rgba(225, 248, 160, 0.35);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -335,7 +335,7 @@
     font-family: var(--font-display);
     font-size: 20px;
     font-weight: 400;
-    color: rgba(215, 242, 228, 0.88);
+    color: rgba(55, 70, 12, 0.88);
     font-style: italic;
   }
 
@@ -365,7 +365,7 @@
     font-family: var(--font-body);
     font-size: 11.5px;
     font-weight: 400;
-    color: rgba(220, 245, 235, 0.82);
+    color: rgba(235, 255, 175, 0.82);
     letter-spacing: 0.04em;
   }
 
@@ -447,7 +447,7 @@
   /* LOCALIZAÇÃO */
   .location-section {
     padding: 20px 0;
-    border-top: 1px solid rgba(47, 111, 87, 0.28);
+    border-top: 1px solid rgba(164, 198, 57, 0.28);
     margin-bottom: 32px;
   }
 
@@ -483,8 +483,8 @@
     align-items: center;
     gap: 6px;
     padding: 7px 13px;
-    background: rgba(169, 211, 190, 0.10);
-    border: 1px solid rgba(120, 175, 148, 0.62);
+    background: rgba(210, 240, 120, 0.10);
+    border: 1px solid rgba(175, 210, 70, 0.62);
     border-radius: 2px;
     cursor: pointer;
     font-family: var(--font-body);
@@ -498,9 +498,9 @@
   }
 
   .copy-btn:hover {
-    border-color: rgba(47, 111, 87, 0.80);
+    border-color: rgba(164, 198, 57, 0.80);
     color: rgba(255, 255, 255, 1);
-    background: rgba(169, 211, 190, 0.18);
+    background: rgba(210, 240, 120, 0.18);
   }
 
   .copy-btn.copied {
@@ -540,7 +540,7 @@
     position: fixed;
     inset: 0;
     z-index: 200;
-    background: linear-gradient(170deg, #0A2818 0%, #1A4A38 40%, #285E48 75%, #0A2818 100%);
+    background: linear-gradient(170deg, #2A380A 0%, #506A18 40%, #668422 75%, #2A380A 100%);
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     transform: translateX(100%);
@@ -568,8 +568,8 @@
   }
 
   .back-btn {
-    background: rgba(47, 111, 87, 0.16);
-    border: 1.5px solid rgba(140, 196, 172, 0.55);
+    background: rgba(164, 198, 57, 0.16);
+    border: 1.5px solid rgba(200, 232, 106, 0.55);
     width: 44px;
     height: 44px;
     border-radius: 4px;
@@ -583,8 +583,8 @@
   }
 
   .back-btn:hover {
-    background: rgba(47, 111, 87, 0.28);
-    border-color: rgba(140, 196, 172, 0.75);
+    background: rgba(164, 198, 57, 0.28);
+    border-color: rgba(200, 232, 106, 0.75);
   }
 
   .back-btn:active {
@@ -618,7 +618,7 @@
     font-weight: 500;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: rgba(220, 245, 235, 0.90);
+    color: rgba(235, 255, 175, 0.90);
     margin-top: 4px;
   }
 
@@ -643,14 +643,14 @@
 
   .form-input, .form-textarea, .form-select {
     width: 100%;
-    background: rgba(238, 246, 242, 0.95);
-    border: 1.5px solid rgba(47, 111, 87, 0.35);
+    background: rgba(244, 250, 232, 0.95);
+    border: 1.5px solid rgba(164, 198, 57, 0.35);
     border-radius: 3px;
     padding: 13px 16px;
     font-family: var(--font-body);
     font-size: 15.5px;
     font-weight: 500;
-    color: rgba(10, 42, 28, 0.92);
+    color: rgba(28, 42, 4, 0.92);
     outline: none;
     transition: border-color 200ms, background 200ms;
     -webkit-appearance: none;
@@ -658,13 +658,13 @@
   }
 
   .form-input::placeholder, .form-textarea::placeholder {
-    color: rgba(47, 111, 87, 0.55);
+    color: rgba(127, 165, 43, 0.55);
     font-weight: 400;
   }
 
   .form-input:focus, .form-textarea:focus, .form-select:focus {
-    border-color: rgba(47, 111, 87, 0.70);
-    background: rgba(244, 252, 248, 1);
+    border-color: rgba(164, 198, 57, 0.70);
+    background: rgba(248, 255, 230, 1);
   }
 
   .form-textarea { 
@@ -675,7 +675,7 @@
   }
 
   .form-select {
-    background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' stroke='%232F6F57' stroke-width='1.8' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' stroke='%23A4C639' stroke-width='1.8' stroke-linecap='round'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: right 14px center;
     padding-right: 40px;
@@ -693,12 +693,12 @@
     font-family: var(--font-body);
     font-size: 15px;
     font-weight: 500;
-    color: rgba(220, 245, 235, 0.92);
+    color: rgba(235, 255, 175, 0.92);
     padding: 11px 18px;
-    border: 1.5px solid rgba(120, 175, 148, 0.50);
+    border: 1.5px solid rgba(175, 210, 70, 0.50);
     border-radius: 3px;
     cursor: pointer;
-    background: rgba(47, 111, 87, 0.08);
+    background: rgba(164, 198, 57, 0.08);
     transition: all 180ms;
     -webkit-tap-highlight-color: transparent;
     display: flex;
@@ -707,8 +707,8 @@
   }
 
   .service-chip-form:hover {
-    background: rgba(47, 111, 87, 0.16);
-    border-color: rgba(120, 175, 148, 0.70);
+    background: rgba(164, 198, 57, 0.16);
+    border-color: rgba(175, 210, 70, 0.70);
   }
 
   .service-chip-form.selected {
@@ -752,7 +752,7 @@
     font-family: var(--font-body);
     font-size: 12px;
     font-weight: 500;
-    color: rgba(220, 245, 235, 0.88);
+    color: rgba(235, 255, 175, 0.88);
     margin-bottom: 8px;
     letter-spacing: 0.04em;
   }
@@ -766,10 +766,10 @@
   .submit-btn {
     width: 100%;
     padding: 17px;
-    background: linear-gradient(105deg, #245746 0%, #2F6F57 30%, #4C8F74 52%, #2F6F57 72%, #245746 100%);
+    background: linear-gradient(105deg, #7FA52B 0%, #A4C639 30%, #C8E86A 52%, #A4C639 72%, #7FA52B 100%);
     background-size: 250% 100%;
     background-position: 100% 0;
-    border: 1px solid #A9D3BE;
+    border: 1px solid #DDF5A3;
     border-radius: 4px;
     font-family: var(--font-body);
     font-size: 12.5px;
@@ -784,7 +784,7 @@
     justify-content: center;
     gap: 10px;
     margin-top: 12px;
-    box-shadow: 0 4px 20px rgba(47, 111, 87, 0.46);
+    box-shadow: 0 4px 20px rgba(164, 198, 57, 0.46);
     -webkit-tap-highlight-color: transparent;
     position: relative;
     overflow: hidden;
@@ -795,8 +795,8 @@
     position: absolute;
     inset: 0;
     background: linear-gradient(180deg,
-      rgba(225, 248, 238, 0.20) 0%,
-      rgba(205, 235, 220, 0.07) 38%,
+      rgba(242, 255, 210, 0.20) 0%,
+      rgba(228, 252, 180, 0.07) 38%,
       transparent 68%);
     opacity: 0.75;
     transition: opacity 300ms var(--ease-out);
@@ -813,9 +813,9 @@
     background: linear-gradient(
       102deg,
       transparent 0%,
-      rgba(225, 248, 238, 0.10) 30%,
-      rgba(235, 252, 244, 0.22) 50%,
-      rgba(225, 248, 238, 0.10) 70%,
+      rgba(242, 255, 210, 0.10) 30%,
+      rgba(248, 255, 225, 0.22) 50%,
+      rgba(242, 255, 210, 0.10) 70%,
       transparent 100%
     );
     transform: skewX(-10deg);
@@ -829,16 +829,16 @@
   .submit-btn:active {
     transform: scale(0.982);
     box-shadow:
-      0 2px 10px rgba(14, 50, 36, 0.26),
-      inset 0 2px 6px rgba(10, 38, 26, 0.15);
+      0 2px 10px rgba(53, 69, 16, 0.26),
+      inset 0 2px 6px rgba(40, 55, 10, 0.15);
   }
   .submit-btn:active::before { opacity: 0.40; }
   .submit-btn:active::after  { opacity: 0.15; animation-play-state: paused; }
   .submit-btn:hover::before  { opacity: 1; }
   .submit-btn:hover::after   { opacity: 1; }
   .submit-btn:hover {
-    border-color: rgba(190, 230, 210, 0.90);
-    box-shadow: 0 4px 24px rgba(47, 111, 87, 0.60);
+    border-color: rgba(235, 252, 175, 0.90);
+    box-shadow: 0 4px 24px rgba(164, 198, 57, 0.60);
     background-position: 0% 0;
   }
 
@@ -873,8 +873,8 @@
     <div class="logo-mark">
       <svg class="logo-ornament" viewBox="0 0 28 28" fill="none">
         <path d="M14 2L15.8 8.4L22 6.8L18.2 12L22 17.2L15.8 15.6L14 22L12.2 15.6L6 17.2L9.8 12L6 6.8L12.2 8.4Z"
-              fill="none" stroke="rgba(169,211,190,0.45)" stroke-width="0.8"/>
-        <circle cx="14" cy="12" r="2.5" fill="rgba(76,143,116,0.50)"/>
+              fill="none" stroke="rgba(200,224,112,0.45)" stroke-width="0.8"/>
+        <circle cx="14" cy="12" r="2.5" fill="rgba(164,198,57,0.55)"/>
       </svg>
       <span class="logo-text">Nail Studio</span>
     </div>
@@ -896,7 +896,7 @@
   <div class="section-divider anim anim-d3">
     <div class="divider-line"></div>
     <div class="divider-diamond"></div>
-    <div class="divider-line" style="background: linear-gradient(90deg, rgba(14,50,36,0.2), rgba(47,111,87,0.5))"></div>
+    <div class="divider-line" style="background: linear-gradient(90deg, rgba(53,69,16,0.2), rgba(164,198,57,0.5))"></div>
   </div>
 
   <div class="professionals anim anim-d4">
@@ -926,7 +926,7 @@
         <div class="pro-action">Agendar pelo WhatsApp</div>
       </div>
       <svg class="pro-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none">
-        <path d="M6 3L11 8L6 13" stroke="rgba(210,238,224,0.72)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M6 3L11 8L6 13" stroke="rgba(55,72,12,0.65)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
     </button>
 
@@ -939,7 +939,7 @@
         <div class="pro-action">Agendar pelo WhatsApp</div>
       </div>
       <svg class="pro-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none">
-        <path d="M6 3L11 8L6 13" stroke="rgba(210,238,224,0.72)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M6 3L11 8L6 13" stroke="rgba(55,72,12,0.65)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
     </button>
   </div>
@@ -947,7 +947,7 @@
   <div class="section-divider anim anim-d5">
     <div class="divider-line"></div>
     <div class="divider-diamond"></div>
-    <div class="divider-line" style="background: linear-gradient(90deg, rgba(14,50,36,0.2), rgba(47,111,87,0.5))"></div>
+    <div class="divider-line" style="background: linear-gradient(90deg, rgba(53,69,16,0.2), rgba(164,198,57,0.5))"></div>
   </div>
 
   <div class="location-section anim anim-d6">
@@ -986,7 +986,7 @@
     <div class="form-header">
       <button class="back-btn" onclick="closeFormScreen()" aria-label="Voltar">
         <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-          <path d="M12 4L6 10L12 16" stroke="rgba(220,245,235,0.90)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M12 4L6 10L12 16" stroke="rgba(235,255,175,0.90)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </button>
       <div class="form-title-block">
